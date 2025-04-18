@@ -1,0 +1,89 @@
+/* Reset básico de estilos padrão dos navegadores */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Remove estilos padrão de listas */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove decorações de links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Define altura total e tipografia base */
+html,
+body {
+  height: 100%;
+  font-family: sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Corrige elementos de formulário */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+/* Botões clicáveis sem estilo feio */
+button {
+  cursor: pointer;
+  background-color: transparent;
+}
+
+/* Imagens responsivas */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Remove estilo padrão de headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+/* Remove aspas de blockquotes e quotes */
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: "";
+}
+
+/* Remove sublinhado automático no Firefox para links */
+a:-moz-any-link:focus {
+  outline: none;
+}
+
+/* Corrige textarea redimensionável */
+textarea {
+  resize: vertical;
+}
