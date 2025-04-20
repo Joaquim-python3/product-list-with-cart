@@ -1,0 +1,13 @@
+// BASE
+@use "./styles/base/reset";
+@use "./styles/base/variables";
+
+// COMPONENTS
+
+// LAYOUT
+@use "./styles/layout/container";
+@use "./styles/layout/main";
+@use "./styles/layout/aside";
+@use "./styles/base/body"; 
+
+// THEMES

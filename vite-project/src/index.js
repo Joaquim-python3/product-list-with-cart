@@ -1,7 +1,7 @@
 import { getData } from "./scripts/api";
 import { setProduct } from "./scripts/products";
 import { escutarAddToCart } from "./scripts/cart";
-import "../src/main.scss";
+import "../src/index.scss";
 
 getData()
   .then((response) => response.json())

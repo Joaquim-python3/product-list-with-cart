@@ -1,0 +1,16 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  &__products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    max-width: 650px;
+  }
+
+  &__card {
+    width: 200px;
+  }
+}
