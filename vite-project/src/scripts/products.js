@@ -1,5 +1,8 @@
 const productsLabel = document.getElementById("products_label");
 
+/* PENDENTE:
+  Configuração de quantidade a ser adicionada ao carrinho.
+*/
 export function setProduct(data) {
   let html = "";
 
@@ -7,7 +10,7 @@ export function setProduct(data) {
     html += `
       <div class="main__card">
         <div class="main__top">
-            <img class="main__image" src="${product.image.thumbnail}" alt="${
+            <img class="main__image" src="${product.image.desktop}" alt="${
       product.name
     }"  />
             <button class="main__button" id="add_cart">Add to cart</button>

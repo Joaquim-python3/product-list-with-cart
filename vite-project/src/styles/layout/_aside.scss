@@ -1,3 +1,7 @@
-.aside{
-    width: 500px;
+@use "../base/variables" as *;
+
+.aside {
+  background: $rose-50;
+  width: 400px;
+  height: fit-content;
 }
