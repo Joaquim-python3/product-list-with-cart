@@ -13,7 +13,7 @@ export function setProduct(data) {
             <img class="main__image" src="${product.image.desktop}" alt="${
       product.name
     }"  />
-            <button class="main__button" id="add_cart">Add to cart</button>
+            <button class="main__button" id="add_cart" name="${product.name}">Add to cart</button>
         </div>
         <div class="main__bottom">
             <p class="main__category">${product.category}</p>
