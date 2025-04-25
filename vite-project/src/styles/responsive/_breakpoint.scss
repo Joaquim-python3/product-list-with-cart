@@ -1,0 +1,7 @@
+@use "../base/variables" as *;
+
+@media (max-width: $breakpoint-mobile){
+    .container{
+        flex-direction: column;
+    }
+}

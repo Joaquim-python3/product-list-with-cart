@@ -8,6 +8,13 @@
 @use "./styles/layout/container";
 @use "./styles/layout/main";
 @use "./styles/layout/aside";
-@use "./styles/base/body"; 
+@use "./styles/base/body";
 
 // THEMES
+
+// UTIL
+@use "./styles/util/helpers";
+
+// RESPONSIVE
+
+@use "./styles/responsive/breakpoint";

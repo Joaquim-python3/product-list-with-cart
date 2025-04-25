@@ -12,4 +12,5 @@ getData()
       const atual = parseInt(span.innerText) || 0;
       span.innerText = atual + 1;
     });
+    escutar
   });
